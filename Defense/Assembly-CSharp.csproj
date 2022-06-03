@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bolt 2D LittleWars VE3\ReadMe\Scripts\ReadmeVE3.cs" />
+     <Compile Include="Assets\Script\MyType.cs" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
