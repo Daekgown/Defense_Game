@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 60694145}
   - component: {fileID: 60694144}
   m_Layer: 9
-  m_Name: RS (1)
+  m_Name: RS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,7 +1708,7 @@ GameObject:
   - component: {fileID: 950329016}
   - component: {fileID: 950329015}
   m_Layer: 8
-  m_Name: BS
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Class","value":{"$content":"Sword","$type":"MyType+Unit"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Atk","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"Speed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Dust","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Class","value":{"$content":"Guard","$type":"MyType+Unit"},"$version":"A"},{"name":"Hp","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Atk","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Speed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Dust","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1696905906}
 --- !u!61 &950329017
@@ -1782,7 +1782,7 @@ Animator:
   m_GameObject: {fileID: 950329014}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e58d23a856186d459e0fdb527517a67, type: 2}
+  m_Controller: {fileID: 22100000, guid: 04263af6cf99e324cb75ac66ad8761b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1830,8 +1830,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -3154150011874791226, guid: 4d701fb8bab94204e92af20e3e7b6a8a,
-    type: 3}
+  m_Sprite: {fileID: 661860490801623818, guid: 4d701fb8bab94204e92af20e3e7b6a8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2543,7 +2542,7 @@ GameObject:
   - component: {fileID: 1280783661}
   - component: {fileID: 1280783660}
   m_Layer: 9
-  m_Name: RS
+  m_Name: RG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2578,7 +2577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Class","value":{"$content":"Sword","$type":"MyType+Unit"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Atk","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"Speed","value":{"$content":-1.0,"$type":"System.Single"},"$version":"A"},{"name":"Dust","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Class","value":{"$content":"Guard","$type":"MyType+Unit"},"$version":"A"},{"name":"Hp","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Atk","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Speed","value":{"$content":-1.0,"$type":"System.Single"},"$version":"A"},{"name":"Dust","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 884131081}
 --- !u!61 &1280783662
@@ -2617,7 +2616,7 @@ Animator:
   m_GameObject: {fileID: 1280783659}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: e99e7a4c3fdf40843a496fb01fb0e1b8, type: 2}
+  m_Controller: {fileID: 22100000, guid: 37fddbbe69a94144ab0953d72418995f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2665,7 +2664,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 8759150981705163766, guid: 4d701fb8bab94204e92af20e3e7b6a8a,
+  m_Sprite: {fileID: -3385372371976808063, guid: 4d701fb8bab94204e92af20e3e7b6a8a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -3599,7 +3598,7 @@ GameObject:
   - component: {fileID: 1948922238}
   - component: {fileID: 1948922237}
   m_Layer: 8
-  m_Name: BS (1)
+  m_Name: BS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
