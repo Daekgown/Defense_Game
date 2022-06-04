@@ -2110,11 +2110,11 @@ RectTransform:
   m_Father: {fileID: 466080419}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -0.000015258789, y: -71.2}
   m_SizeDelta: {x: 150, y: 70}
-  m_Pivot: {x: 1, y: 1}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &616592413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,7 +2541,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"IsWizard","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Unit","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 190421520066461405, guid: eff3c8f79a25a1544a917c5a326c3cac, type: 3}
+    - {fileID: 949909234341818764, guid: 399d8c584e8de7a4798cdac7cc6e7d6c, type: 3}
     - {fileID: 5264241641082697004, guid: 770e9bef5bcd5064aae73ad32df9fc50, type: 3}
 --- !u!114 &755159491
 MonoBehaviour:
