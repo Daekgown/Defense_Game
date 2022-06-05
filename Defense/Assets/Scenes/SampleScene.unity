@@ -233,7 +233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2, y: 1.9999924}
+  m_AnchoredPosition: {x: 2, y: 2}
   m_SizeDelta: {x: 150, y: 10}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &36691503
@@ -2805,6 +2805,8 @@ GameObject:
   - component: {fileID: 800068043}
   - component: {fileID: 800068045}
   - component: {fileID: 800068044}
+  - component: {fileID: 800068047}
+  - component: {fileID: 800068046}
   m_Layer: 5
   m_Name: Bar
   m_TagString: Untagged
@@ -2869,6 +2871,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800068042}
   m_CullTransparentMesh: 0
+--- !u!114 &800068046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800068042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9280031e12a58f742b81793cd0fe7ca5, type: 2}
+--- !u!114 &800068047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800068042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Var","value":{"$content":"Cost","$type":"System.String"},"$version":"A"},{"name":"Max","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Text","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text
+      Shadow","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1204806294}
+    - {fileID: 379554282}
 --- !u!1 &849536604
 GameObject:
   m_ObjectHideFlags: 0
