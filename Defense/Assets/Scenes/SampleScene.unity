@@ -1335,7 +1335,7 @@ GameObject:
   - component: {fileID: 371227100}
   - component: {fileID: 371227103}
   - component: {fileID: 371227102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Base Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1422,8 +1422,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6f1d2c8cce45d4249a1089ea476933f2, type: 2}
 --- !u!114 &371227103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1437,7 +1438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Magic","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Magic","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cost","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6697675832689293975, guid: 724b591715c17dc42ba9c1d28a812898, type: 3}
     - {fileID: 2477980582930281677, guid: 9b151e731e0f8c445b54c1279333213c, type: 3}
@@ -1965,7 +1966,7 @@ GameObject:
   - component: {fileID: 575442413}
   - component: {fileID: 575442416}
   - component: {fileID: 575442415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Base Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2052,8 +2053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6f1d2c8cce45d4249a1089ea476933f2, type: 2}
 --- !u!114 &575442416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2067,7 +2069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Magic","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Magic","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cost","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2757010034134418581, guid: bbaf105e34b510548837a7486aca1919, type: 3}
     - {fileID: 5621250605052227042, guid: ab52a6da519aade4084eb4795b9ba134, type: 3}
@@ -2112,7 +2114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.000015258789, y: -71.2}
+  m_AnchoredPosition: {x: 0, y: -71.20001}
   m_SizeDelta: {x: 150, y: 70}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &616592413
